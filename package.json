@@ -2,7 +2,8 @@
   "main": "src/app.js",
   "scripts": {
     "start": "node .",
-    "dev": "nodemon ."
+    "dev": "nodemon .",
+    "artillery": "artillery run config.yml -o testPerformance.json"
   },
   "type": "module",
   "dependencies": {
