@@ -3,7 +3,8 @@
   "scripts": {
     "start": "node .",
     "dev": "nodemon .",
-    "artillery": "artillery run config.yml -o testPerformance.json"
+    "artillery:test": "artillery run config.yml -o testPerformance.json",
+    "artillery:html": "artillery report testPerformance.json -o testResult.html"
   },
   "type": "module",
   "dependencies": {
